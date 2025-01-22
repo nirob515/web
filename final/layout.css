@@ -1,0 +1,106 @@
+*{
+    margin:0px 4px;
+    padding:5px ;
+    box-sizing: border-box;
+
+}
+header{
+    background:wheat;
+    text-align: center;
+    margin-bottom:10px;
+    padding: 10px;
+    font-size: small;
+}
+nav{
+   background:rgb(137, 137, 229);
+   text-align: center;
+   margin-bottom:5px;
+   padding: 0px 5px;
+  
+
+   
+}
+nav ul{
+    list-style: none;
+    
+}
+
+nav ul li{
+    display: inline-block;
+    text-decoration: none;
+}
+ a{
+    text-decoration: none;
+    color: aliceblue;
+
+}
+section{
+    display: flex;
+    
+
+   
+    
+}
+section div{
+    margin-trim: 10px;
+    background: rgb(122, 223, 223);
+    
+}
+aside{
+    background:rgb(9, 142, 137);
+    text-align: center;
+    
+    font-size: small;
+}
+aside ul{
+    list-style: none;
+}
+footer{
+   background: rgb(123, 132, 133);
+   text-align: center;
+}
+#soto{
+    background: rgb(235, 138, 138);
+    
+    height: 300px;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    
+
+}
+#soto h2{
+    font-family: 'Courier New', Courier, monospace;
+}
+#soto a{
+    text-decoration: none;
+    background: black;
+    color: aliceblue;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+}
+#kana{
+    height: 200px;
+    background: rgb(145, 233, 183);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px 15px;
+    
+}
+#kana h2{
+    margin-bottom: 10px;
+}
+#kana p{
+    margin-bottom: 20px;
+    font-style:;
+}
+#kana a{
+    background: black;
+    display: inline;
+    padding-top: 0px 10px;
+   
+}
